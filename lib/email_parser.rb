@@ -12,7 +12,6 @@ class EmailParser
   end
 
   def parse
-    if @emails.include?()
     @emails.split(/[,|' ']/).reject(&:empty?).uniq
   end
 end
