@@ -5,6 +5,6 @@
 
 class EmailParser(emails)
   def parse(emails)
-    emails.split(/[,' ']/)
+    emails.split(/[,]/)
   end
 end
